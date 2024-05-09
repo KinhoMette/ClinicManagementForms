@@ -31,7 +31,7 @@ namespace ClinicManagementForms
                     if (dr.Read())
                     {
                         dr.Close();
-                        MessageBox.Show("Username Already exist please try another ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Usuario já existe tente outro", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     else
                     {
